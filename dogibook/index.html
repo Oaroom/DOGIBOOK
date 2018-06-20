@@ -7,7 +7,10 @@
     <title>애견인을 위한 가이드북</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="dog.css?ver=3">
-    <link rel="stylesheet" href="css/animations.css?ver=3">
+
+
+
+
 
 </head>
 <body align="center">
@@ -16,13 +19,29 @@
 
     <header>
 
-            <div id="mainTitleFrame">
-                    <h2 id="mainTitle">  D O G </h2> <h2 id = "mainTitle1"> I </h2> <h2 id="mainTitle"> B O O K  </h2> 
-                     <h3> 반려견과 나를 위한 가이드북, 도기북 </h3>
-      
-                  </div>
+      <div id="mainAd">
+        <img src="img/add5.png" width="150px" height="150px;">
+      </div>
 
-                  <nav>
+      <div id="mainAd1">
+        <img src="img/ad6.png" width="150px" height="150px;">
+      </div>
+      <div id="mainTitleFrame">
+                  <img src="img/dog.png" alt="" width=50px height="50px" style="margin:10px"> <br>
+                    <h2 id="mainTitle">  D O G </h2> <h2 id = "mainTitle1"> I </h2> <h2 id="mainTitle"> B O O K  </h2>
+                     <h5> 반려견과 나를 위한 가이드북, 도기북 </h5>
+              </div>
+
+      <div id="mainAd3">
+        <img src="img/ad7.png" width="150px" height="150px;">
+      </div>
+
+      <div id="mainAd2">
+        <img src="img/ad3.png" width="150px" height="150px;">
+      </div>
+
+
+                  <nav style="clear:both">
                         <div class="dropmenu">
                          <ul id="dm_ul">
                             <li> <a href="index.html"> HOME</a> </li>
@@ -44,7 +63,7 @@
                                     <li><a href="commu.1.html"> 카밍시그널 </a></li>
                                   </ul>
                             </li>
-                            <li> <a href="life.html"> 생활</a> 
+                            <li> <a href="life.html"> 생활</a>
                                 <ul>
                                         <li><a href="life.html"> 산책하기 </a></li>
                                         <li><a href="life.1.html"> 위생관리 </a></li>
@@ -72,30 +91,122 @@
         });
     </script>
 
-  
+
 
 
 
     <aside id="leftAside">
 
+<a href="http://okdoctordog.com/">
             <div id="mCard">
                 <div id="sCard">
-                        믿고 먹는 건강한 사료, 닥터독!
+                  우리아이의 사료?
+                  <br><br>
+                        믿고 먹는 건강한 사료,<br> 닥터독과 함께! <br>
+
                 </div>
             </div>
-
+</a>
     </aside>
 
-    <article id="article1"></article>
+    <article id="article1">
+
+      <section class="slide">
+
+
+           <img id="back" src="img/back.png" width="100px">
+
+                  <ul>
+                      <li> <img src="img/banner1.png" height=" 300px" width="750px"></li>
+                      <li> <img src="img/banner1.png" height=" 300px" width="750px"></li>
+                      <li> <img src="img/banner1.png" height=" 300px" width="750px"></li>
+                      <li> <img src="img/banner1.png" height="300px" width="750px"></li>
+                      <li> <img src="img/banner1.png" height=" 300px" width="750px"></li>
+                  </ul>
+
+             <img id="next" src="img/next.png"  width="100px">
+
+     </section>
+
+     <section id="mainBox">
+
+       <div class="mainCell"> 강아지  </div> <div class="mainCell">강아지 </div>
+        <div class="mainCell">강아지 </div> <div class="mainCell">강아지 </div>
+       <div class="mainCell"> 강아지</div> <div class="mainCell">강아지 </div>
+        <div class="mainCell"> 강아지</div> <div class="mainCell">강아지 </div>
+
+     </section>
+
+
+    </article>
 
     <aside id="rightAside">
+      <a href="http://okdoctordog.com/">
+                  <div id="mCard1">
+                      <div id="sCard">
+                        도와주세요,제발..
+                        <br><br>
+                              심각한 유기견 문제,<br> 당신의 도움이 필요합니다. <br>
 
+                      </div>
+                  </div>
+      </a>
     </aside>
 
-   
+
 </div>
 <footer>
-      
+
 </footer>
 </body>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  var imgs;
+  var img_count;
+  var img_position = 1;
+
+  imgs = $(".slide ul");
+  img_count = imgs.children().length;
+
+  //버튼을 클릭했을 때 함수 실행
+  $('#back').click(function () {
+    back();
+  });
+  $('#next').click(function () {
+    next();
+  });
+
+  function back() {
+
+    console.log("뒤로");
+    if(1<img_position){
+      imgs.animate({
+        left:'+=750px'
+      });
+      img_position--;
+    }
+  }
+  function next() {
+    console.log("앞로");
+    if(img_count>img_position){
+      imgs.animate({
+        left:'-=750px'
+      });
+      img_position++;
+    }
+  }
+
+
+  //이미지 끝까지 가면 버튼 사라지기
+
+
+  //첫 이미지로 돌아오기
+
+
+});
+</script>
+
+
 </html>

@@ -17,13 +17,15 @@
         <div id="mainFrame">
 
             <header>
-                    <div id="mainTitleFrame">
-                            <h2 id="mainTitle">  D O G </h2> <h2 id = "mainTitle1"> I </h2> <h2 id="mainTitle"> B O O K  </h2> 
-                             <h3> 반려견과 나를 위한 가이드북, 도기북 </h3>
-              
-                          </div>
-        
-                          <nav>
+              <div id="subTitleFrame">
+                    <h2 id="mainTitle">  D O G </h2> <h2 id = "mainTitle1"> I </h2> <h2 id="mainTitle"> B O O K  </h2>
+              </div>
+
+              <div id=subTitleFrame1>
+
+                  <img src="img/foot.png" width="40px" height="40px" style=" margin-left:10px; ">
+              </div>
+                  <nav style="clear:both">
                                 <div class="dropmenu">
                                  <ul id="dm_ul">
                                     <li> <a href="index.html"> HOME</a> </li>
@@ -45,7 +47,7 @@
                                             <li><a href="commu.1.html"> 카밍시그널 </a></li>
                                           </ul>
                                     </li>
-                                    <li> <a href="life.html"> 생활</a> 
+                                    <li> <a href="life.html"> 생활</a>
                                         <ul>
                                                 <li><a href="life.html"> 산책하기 </a></li>
                                                 <li><a href="life.1.html"> 위생관리 </a></li>
@@ -63,33 +65,90 @@
                             </div>
                             </nav>
                 <br>
-        
+
             </header>
-        
+
             <script type="text/javascript">
                 $(".dropmenu ul li").hover(function(){
                   $(this).find("ul").stop().fadeToggle(300);
                 });
             </script>
-        
-          
-        
+
+
+
 
 
     <aside id="sideMenu">
             <h3 id="sideTitle">기초</h3>
             <ul >
-                <li>  필수준비 </li>
-                <li>  주의사항 </li>
+              <a href="basic.html">  <li>  필수준비 </li> </a>
+              <a href="basic.1.html">    <li>  주의사항 </li></a>
                 <li> </li>
     </aside>
 
-    <article id="article2"></article>
+    <article id="article2">
+
+      <div id="basicTitle2">
+        <h1> 주 의 사 항 </h1>
+        <h4> 우리 아이를 위해서 반드시 알아두자!! </h4>
+      </div>
 
 
 
-    <footer>
-    </footer>
+      <section id="content">
+        <h3 id="smTitle1">I. 강아지 금기음식</h3>
+      <section>
+
+        <section id="content" style="margin-left:90px;">
+
+            <div class="dont" style="background-image:url(img/dont1.jpg); width:200px; height:150px">
+              <div class="dont1">
+                초콜릿<br><br>
+                  <font class="dis">심장과 중추신경계에 악영향을 주어 급성 신부전을 일으킵니다.</font>
+              </div>
+            </div>
+            <div class="dont" style="background-image:url(img/dont2.jpg); width:200px; height:150px">
+              <div class="dont1">
+                양파<br>
+                  <font class="dis">빈혈, 혈색노쇼, 황달을 일으킵니다. 익힌 양파도 금물!</font>
+              </div>
+            </div>
+            <div class="dont" style="background-image:url(img/dont3.jpg); width:200px; height:150px">
+              <div class="dont1">
+                포도<br>
+                  <font class="dis">신세뇨관이 망가지게되니 주의해주세요!</font>
+              </div>
+            </div>
+            <div class="dont" style="background-image:url(img/dont4.jpg); width:200px; height:150px">
+              <div class="dont1">
+                건포도 <br>
+                  <font class="dis">구토나 신부전을 일으키는 경우가 있습니다!</font>
+              </div>
+            </div>
+            <div class="dont" style="background-image:url(img/dont5.jpg); width:200px; height:150px">
+              <div class="dont1">
+                오징어<br>
+                  <font class="dis">소화가 어려워 위에 부담이 됩니다. 생물 오징어를 갈아서는 OK!</font>
+              </div>
+            </div>
+            <div class="dont" style="background-image:url(img/dont6.jpg); width:200px; height:150px">
+              <div class="dont1">
+                탄산음료<br>
+                  <font class="dis">소화불량의 원인입니다. 비만과 충치도 유발해요!</font>
+              </div>
+            </div>
+
+
+        </section>
+
+
+    </article>
+
+
 </div>
+<footer>
+
+  
+</footer>
 </body>
 </html>
