@@ -70,6 +70,8 @@ opacity:0.7;
 }
 
 
+
+/*leftAside*/
  #leftAside{
 
 
@@ -79,6 +81,59 @@ opacity:0.7;
     width:200px;
     border-radius: 10px;
 }
+
+
+#mCard{
+
+    
+    font-weight: bold;
+    font-size:12pt;
+      font-family: 'Nanum Gothic';
+    color:#888888;
+    background-color:#ffffff;
+    border:1px solid #d5d5d5;
+    width:200px;
+    height:300px;
+    text-align:center;
+    position:relative;
+
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+
+     text-shadow: -1px 0 #555555, 0 1px #555555, 1px 0 #555555, 0 -1px #555555;
+      -moz-text-shadow: -1px 0 #555555, 0 1px #555555, 1px 0 #555555, 0 -1px #555555;
+      -webkit-text-shadow: -1px 0 #555555, 0 1px #555555, 1px 0 #555555, 0 -1px #555555;
+
+
+
+
+}
+
+
+#sCard{
+
+    position:absolute;
+    top:200px; left:-1px;
+    background:#000;
+    width:202px; height:101px;
+    opacity: 0.6;
+    color:#000;
+    -webkit-transition-duration:1s, 1s;
+    -moz-transition-duration:1s, 1s;
+    transition-duration: 1s,1s;
+    
+}
+
+
+#sCard:hover{
+
+    top:100px; left:-1px;
+    height:201px;
+    color:#ffffff;
+
+  }
+
+
 
 #rightAside{
 
@@ -161,7 +216,8 @@ opacity:0.7;
 #article2{
 
     border : 1px solid #dfdfdf;
-    height: 500px;
+    min-height: 500px;
+    overflow: hidden;
     width:950px;
     display: inline-block;
 
@@ -177,3 +233,134 @@ opacity:0.7;
 .dropmenu ul li a{display: block; width: 150px; color: #555555; line-height: 43px;
   text-decoration: none;}
 .dropmenu ul li a:hover{background-color: #fdfdfd; color: #5BA9FF; font-weight: bolder;}
+
+
+
+
+/* 반려견이란? - 반려견이란? */
+
+
+#guideLine{
+
+    border:none;
+    border : 1px dashed #dfdfdf;
+
+}
+
+#contentTitle{
+
+
+    margin:auto;
+    margin-top: 30px;
+    width:300px;
+    color:#555555;
+    letter-spacing: 10px;
+    font-size : 30pt;
+    border-bottom:3px solid #555555;
+    
+
+}
+
+#article2 h5{
+
+    color:#444444;
+
+
+}
+
+
+#arti_Title{
+
+    margin-bottom:100px;
+
+}
+
+
+#content{
+
+    width:900px;
+    min-height: 300px;
+    overflow: hidden;
+    margin:auto;
+}
+
+#smTitle1{
+
+    font-size:15pt;
+    padding:10px;
+    border-left:5px solid #5BA9FF;
+    font-weight: bolder;
+    color:#7f7f7f;
+    text-align: left;
+    float: left;
+
+}
+
+#titleBack{
+
+    width:0px; height:0px;
+    text-shadow: -1px 0 #555555, 0 1px #555555, 1px 0 #555555, 0 -1px #555555;
+    -moz-text-shadow: -1px 0 #555555, 0 1px #555555, 1px 0 #555555, 0 -1px #555555;
+    -webkit-text-shadow: -1px 0 #555555, 0 1px #555555, 1px 0 #555555, 0 -1px #555555;
+
+
+}
+
+#titleBack:hover{
+
+    width:400px;
+    height:100px;
+
+
+}
+
+
+/* 교감 - 노즈워크*/
+#nosework h2{
+
+    display: inline;
+    color:#555555;
+    float: left;
+
+
+}
+
+
+#noseTitle{
+
+margin-top:20px;
+margin-left:30px;
+margin-right:30px;
+
+font-size:20pt;
+font-weight: bolder;
+color:#555555;
+
+}
+
+#cellFrame{
+
+    margin-left:40px;
+    margin-bottom:40px;
+    
+
+}
+
+.cell{
+
+    width:130px;
+    height:100px;
+    border: 1px solid #b6c3e4;
+    padding:10px;
+    margin:10px;
+    float: left;    
+    background-color: #fafafa;
+
+}
+
+
+.cell:hover{
+
+    opacity: 0.5;
+
+}
