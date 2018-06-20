@@ -1,3 +1,16 @@
+/*
+
+footer{
+
+width: 100%;
+height: 100px;
+background-color: #5BA9FF;
+color:#ededed;
+opacity:0.7;
+
+}
+*/
+
 
 #mainFrame{
 
@@ -7,64 +20,55 @@
     overflow: hidden;
 }
 
+
+#mainTitleFrame{
+
+    margin:30px 0px;
+
+}
+
 #mainTitle{
 
+  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    display: inline;
     margin:auto;
     margin-top:30px;
-    font-size:30pt;
+    font-size:40pt;
     background-color: #5BA9FF;
     color:white;
     width:500px;
+    padding:0px 20px;
 
 
 }
-/*
-#menu a{
 
-    text-decoration: none;
-    color:#555555;
-
-}
+#mainTitle1{
 
 
-#menu{
-
-    width: 1200px;
-    vertical-align:middle;
-    color:#555555;
-    letter-spacing: 10px;
-    text-align: center;
-    list-style: none;
-    padding:10px;
-    border-top:3px solid #5BA9FF;
-    border-bottom:3px solid #5BA9FF;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    margin:auto;
+    margin-top:30px;
+    font-size:45pt;
+    background-color: white;
+    color:#5BA9FF;
+    width:500px;
+    
+    padding-left:20px;
+    padding-right: 10px;
 
 }
 
-#menu li{
 
-    display:inline;
-    text-decoration: transparent;
-    margin:0px 20px;
+#mainTitleFrame h3{
 
-    }
-
-
-#menu a:link{
-
-    text-decoration: none;
-    color:black;
+    color: #aaaaaa;
+    letter-spacing: 15px;
 
 }
 
-#menu a:hover{
-
-    font-weight: bolder;
-    color: #5BA9FF;
-
-}
-
-*/
 
  #leftAside{
 
@@ -101,19 +105,47 @@
 }
 
 
+
 #sideMenu ul{
 
     text-decoration: transparent;
     list-style: none;
     line-height:3em;
     text-align: left;
+    padding:0px;  
+
+}
+
+
+#sideMenu li{
+
+    border-top: 1px solid #dfdfdf;
+    padding:0px;  
+    padding-left:20px;
+    color:#666666;
+    font-size:11pt;
+
+}
+
+#sideMenu li:hover{
+
+    background-color:white;
+    color:#5BA9FF
+    
+
+}
+
+#sideMenu a{
+
+    text-decoration: none;
+    color:#9f9f9f;
 
 }
 
 #sideTitle{
 
     font-size:20pt;
-    color:#afafaf;
+    color:#8f8f8f; 
 
 }
 
@@ -140,8 +172,8 @@
 
   .dropmenu ul ul{position: absolute; display: none; background-color: #5BA9FF;
     padding:1px;}
-  .dropmenu ul ul li{display: block; background-color: #fdfdfd; color: white;}
+  .dropmenu ul ul li{display: block; background-color: #fdfdfd; color: white; letter-spacing: 0px;}
 .dropmenu ul li{display: inline-block; }
 .dropmenu ul li a{display: block; width: 150px; color: #555555; line-height: 43px;
   text-decoration: none;}
-.dropmenu ul li a:hover{background-color: #fdfdfd; color: #5BA9FF; font-weight: bold;}
+.dropmenu ul li a:hover{background-color: #fdfdfd; color: #5BA9FF; font-weight: bolder;}

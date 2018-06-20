@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>  D O G I B O O K </title>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="dog.css?ver=3">
 
 
@@ -13,33 +13,77 @@
 <body align="center">
 
     <div id="mainFrame">
+        <div id="mainFrame">
 
-    <header>
-
-        <h2 id="mainTitle">  D O G I B O O K </h2>
-
-        <nav>
-             <ul id="menu">
-                <li> <a href="index.html"> HOME</a> </li>
-                <li> <a href="dog.html"> 반려견이란?</a> </li>
-                <li> <a href="basic.html"> 기초</a> </li>
-                <li> <a href="life.html"> 교감</a> </li>
-                <li> <a href="life.html"> 생활</a> </li>
-                <li> <a href="health.html"> 건강</a> </li>
-            </ul>
-        </nav>
-
-        <br>
-
-    </header>
+            <header>
+        
+                    <div id="mainTitleFrame">
+                            <h2 id="mainTitle">  D O G </h2> <h2 id = "mainTitle1"> I </h2> <h2 id="mainTitle"> B O O K  </h2> 
+                             <h3> 반려견과 나를 위한 가이드북, 도기북 </h3>
+              
+                          </div>
+        
+                <nav>
+                    <div class="dropmenu">
+                     <ul id="dm_ul">
+                        <li> <a href="index.html"> HOME</a> </li>
+                        <li> <a href="dog.html"> 반려견이란?</a>
+                          <ul>
+                            <li><a href="#"> 반려견이란? </a></li>
+                            <li><a href="#"> 책임감 갖기 </a></li>
+                          </ul>
+                        </li>
+                        <li> <a href="basic.html"> 기초</a>
+                            <ul>
+                                <li><a href="#"> 필수준비 </a></li>
+                                <li><a href="#"> 주의사항 </a></li>
+                              </ul>
+                        </li>
+                        <li> <a href="life.html"> 교감</a>
+                            <ul>
+                                <li><a href="#"> 노즈워크 </a></li>
+                                <li><a href="#"> 카밍시그널 </a></li>
+                              </ul>
+                        </li>
+                        <li> <a href="life.html"> 생활</a> 
+                            <ul>
+                                <li><a href="#"> 산책하기 </a></li>
+                                <li><a href="#"> 위생관리 </a></li>
+                                <li><a href="#"> 훈련하기 </a></li>
+                              </ul>
+                        </li>
+                        <li> <a href="health.html"> 건강</a>
+                            <ul>
+                                <li><a href="#"> 질병 </a></li>
+                                <li><a href="#"> 예방접종 </a></li>
+                                <li><a href="#"> 자가진단 </a></li>
+                              </ul>
+                        </li>
+                    </ul>
+                </div>
+                </nav>
+        
+                <br>
+        
+            </header>
+        
+            <script type="text/javascript">
+                $(".dropmenu ul li").hover(function(){
+                  $(this).find("ul").stop().fadeToggle(300);
+                });
+            </script>
+        
+          
+        
 
 
     <aside id="sideMenu">
             <h3 id="sideTitle">건강</h3>
             <ul >
-                <li> - 건강이 </li>
-                <li> - 정말로 </li>
-                <li> - 중요해요 </li>
+                <li>  질병 </li>
+                <li>  예방접종 </li>
+                <li>  자가진단 </li>
+                <li> </li>
     </aside>
 
     <article id="article2"></article>
