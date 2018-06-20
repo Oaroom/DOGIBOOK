@@ -18,18 +18,18 @@
 
 
 }
-
+/*
 #menu a{
 
     text-decoration: none;
     color:#555555;
- 
+
 }
 
 
 #menu{
 
-    width: 1200px; 
+    width: 1200px;
     vertical-align:middle;
     color:#555555;
     letter-spacing: 10px;
@@ -46,7 +46,7 @@
     display:inline;
     text-decoration: transparent;
     margin:0px 20px;
-    
+
     }
 
 
@@ -64,11 +64,11 @@
 
 }
 
-
+*/
 
  #leftAside{
-    
-    
+
+
     border : 1px solid #dfdfdf;
     float: left;
     height: 400px;
@@ -77,14 +77,14 @@
 }
 
 #rightAside{
-    
+
     border : 1px solid #dfdfdf;
     float: right;
     height: 400px;
     width:200px;
     border-radius: 10px;
 }
-    
+
 #sideMenu{
 
     border : 1px solid #dfdfdf;
@@ -134,4 +134,14 @@
     display: inline-block;
 
 }
+#dm_ul{ list-style: none; letter-spacing: 10px;vertical-align:middle;
+    padding:5px; min-width: 300px;  border-top:3px solid #5BA9FF;
+    border-bottom:3px solid #5BA9FF; color:#555555; text-align: center;}
 
+  .dropmenu ul ul{position: absolute; display: none; background-color: #5BA9FF;
+    padding:1px;}
+  .dropmenu ul ul li{display: block; background-color: #fdfdfd; color: white;}
+.dropmenu ul li{display: inline-block; }
+.dropmenu ul li a{display: block; width: 150px; color: #555555; line-height: 43px;
+  text-decoration: none;}
+.dropmenu ul li a:hover{background-color: #fdfdfd; color: #5BA9FF; font-weight: bold;}
