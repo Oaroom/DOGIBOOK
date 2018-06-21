@@ -141,7 +141,7 @@ margin-right: -250px;
 #mCard{
 
 
-  background-image: url("img/ddg.png");
+  background-image: url("img/ddg.jpg");
 
     font-weight: bold;
     font-size:12pt;
@@ -169,7 +169,7 @@ margin-right: -250px;
 #mCard1{
 
 
-  background-image: url("img/ddg1.png");
+  background-image: url("img/ddg1.jpg");
 
     font-weight: bold;
     font-size:12pt;
@@ -882,5 +882,132 @@ height: 100px;
 color:white;
 background-color: #5BA9FF;
 margin-top: 50px;
+text-align: center;
+
+
+}
+
+
+.sick img{
+
+  margin:30px;
+  float: left;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+
+}
+
+
+.sick{
+
+
+  position: relative;
+  margin:30px;
+  float: left;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  font-size:20pt;
+
+}
+
+.sick1{
+
+  top:-3px;
+  left:-3px;
+  position: absolute;;
+  margin:30px;
+  float: left;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  opacity: 0;
+
+
+}
+
+.sick1:hover{
+
+  margin:30px;
+  float: left;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  opacity: 0.8;
+  background-color: #fff;
+  color:#666666;
+  line-height: 7em;
+  border:5px solid #5BA9FF;
+}
+
+
+.dogl{
+
+  float: left;
+  position: relative;
+  border-radius: 50%;
+  width:200px;
+  height: 200px;
+  border:3px solid #5BA9FF;
+  font-weight: bolder;
+  line-height: 5em;  
+  font-size:30pt;
+  color:#555555;
+ 
+}
+
+.dogr{
+
+  float: right;
+  position: relative;
+  border-radius: 50%;
+  width:200px;
+  height: 200px;
+  border:3px solid #5BA9FF;
+  font-weight: bolder;
+  line-height: 5em;  
+  font-size:30pt;
+  color:#555555;
+ 
+}
+
+
+.dog1{
+
+
+  top: -4px;
+  left:-6px;
+  position: absolute;
+  border-radius: 50%;
+  width:210px;
+  height: 210px;
+  border:3px solid #5BA9FF;
+  opacity: 0;
+  line-height: 2em;  
+  font-size:13pt;
+ 
+}
+
+.dog1:hover{
+
+
+  position: absolute;
+  border-radius: 50%;
+  width:210px;
+  height: 210px;
+  border:3px solid #dfdfdf;
+  background-color: #5BA9FF;
+  color:white;
+  opacity: 1;
+  
+ 
+}
+
+#dogFont{
+
+  font-size:50pt;
+  display: inline-block;
+  margin-top: 70px;
 
 }
