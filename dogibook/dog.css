@@ -1043,12 +1043,179 @@ text-align: center;
 
 }
 
-#WrtieForm{
+#WriteForm{
 
   align:center;
+
+  margin:auto;
+  margin-top:50px;
+  margin-bottom:50px;
   
   width:600px;
   height: 400px;
-  border: 1px solid red;
+
+}
+
+#WriteForm th{
+
+background-color: #5BA9FF;
+color:white;
+
+width:100px;
+
+
+}
+
+
+#WriteForm tr{
+
+
+
+
+}
+
+
+#id, pass{
+
+
+  width:200px;
+
+}
+
+#titleForm{
+
+
+  width:500px;
+
+
+}
+
+#content{
+
+
+  width:500px;
+  height: 400px;;
+
+}
+
+#submitB{
+
+
+    width:200px;
+    height: 50px;
+
+    background-color: white;
+    border: 2px solid #5BA9FF;
+
+    color:#5BA9FF;
+
+    margin:20px;
+
+}
+
+
+#submitB:hover{
+
+
+  background-color: #5BA9FF;
+  color:white;
+
+  font-weight: 900;
+
+
+}
+
+
+#inputForm{
+
+  width:500px;
+  height:30px;
+  
+  border-radius: 10px;
+  border:1px solid #888888;
+
+}
+
+
+#tipB{
+
+  width:100px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid #5BA9FF;
+  border-radius: 30px;
+
+  color:#5BA9FF;
+
+  margin:20px;
+
+}
+
+
+#tipB:hover{
+
+
+  background-color: #5BA9FF;
+  color:white;
+
+}
+
+
+#plan{
+
+  margin : auto;
+  width:600px;
+  height: 200px;
+
+
+}
+
+#plan th{
+
+  background-color: #5BA9FF;
+  border:1px solid white;
+  border-radius: 10px;
+  color:white;
+  font-weight: 900;
+
+}
+
+
+#plan input{
+
+
+  width:400px;
+
+}
+
+
+#planContent{
+
+  height: 200px;
+
+}
+
+#planB{
+
+  widows: 100px;
+  height: 50px;
+
+  border:2px solid #5BA9FF;
+  border-radius: 50px;
+
+  background-color: white;
+  font-weight: 900;
+
+  margin:50px;
+
+
+}
+
+
+#planB:hover{
+
+  background-color: #5BA9FF;
+  color:white;
+
 
 }

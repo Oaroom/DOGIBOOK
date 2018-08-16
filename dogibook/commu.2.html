@@ -7,6 +7,7 @@
     <title>  D O G I B O O K </title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="dog.css?ver=3">
+    <script src="dogibook.js"></script>
 
 
 </head>
@@ -64,7 +65,7 @@
                   <ul>
                       <li><a href="commu.html"> 궁금해요 </a></li>
                       <li><a href="commu.1.html"> 꿀팁공유 </a></li>
-                      <li><a href="commu.2.html"> 지금만나 </a></li>
+                      <li><a href="commu2.html"> 지금만나 </a></li>
                     </ul>
               </li>
             </ul>
@@ -84,86 +85,79 @@
 
 
 
-
     <aside id="sideMenu">
 
-            <h3 id="sideTitle">교감</h3>
+            <h3 id="sideTitle">커뮤니티</h3>
             <ul>
-                    <a href="commu.html">   <li>  노즈워킹 </li></a>
-                    <a href="commu.1.html">   <li>  카밍시그널 </li> </a>
-                <li> </li>
+             <a href="commu.html">   <li>  궁금해요 </li></a>
+             <a href="commu.1.html">   <li>  꿀팁공유 </li> </a>
+             <a href="commu.2.html">   <li>  지금만나 </li> </a>
     </aside>
 
     <article id="article2">
 
-      <div id="nosework">
-            <div id="noseTitle">
-               <h1>카밍시그널?</h1>
-               <h3>강아지들의 언어로서, 의사표현을 하는 것 </h3>
+
+        <section id="nosework">
+
+           <div id="noseTitle">
+              <h1>우리 지금 만나! </h1>
+              <h3> 반려견을 키우는 사람들을 모아, 의사소통을 해봅시다.</h3>
             </div>
-      </div>
-        <div id="cellFrame">
 
-        <div class="cell">
+            <div>
 
-          눈마주치기
-          <div class="cell1">
-            좋아해요! <br>사랑해요!
-          </div>
-        </div>
+                <table id="plan">
 
+                    <tr>
+                        <th>
+                            날짜
+                        </th>
+                        <td>
+                            <input type="date">
+                        </td>    
+                    </tr>
+                    
+                    <tr>
+                        <th>
+                            시간
+                        </th>
+                        <td>
+                            <input type="time">
+                        </td>    
+                    </tr>
 
-        <div class="cell">
-          시선회피하기
-          <div class="cell1">
-            안 싸울거야
-          </div>
-        </div>
+                    
+                    <tr>
+                        <th>
+                            인원수
+                        </th>
+                        <td>
+                            <input type="number">
+                        </td>    
+                    </tr>
 
-        <div class="cell">
-          갸우뚱
-          <div class="cell1">
-            주인님께 집중!
-          </div>
-        </div>
+                    <tr>
+                        <th>
+                            내용
+                        </th>
+                        <td>
+                            <input type="text" id="planContent">
+                        </td>    
+                    </tr>                
+                
+                    <tr>
+                      
+                        <td colspan="2">
+                                <input type ="button" id="planB" value="확인" onclick="plan()"
+                        </td>    
+                    </tr>
+                </table>
 
-        <div class="cell">
-          코핥기
-          <div class="cell1">
-            불편해요
-          </div>
-        </div>
+            </div>
 
-        <div class="cell">
-          하품하기
-          <div class="cell1">
-            스트레스!!
-          </div>
-        </div>
+        </section>
 
-        <div class="cell">
-          혀로핥기
-          <div class="cell1">
-            최고의 호감표시!
-          </div>
-        </div>
-
-        <div class="cell">
-          기지개
-          <div class="cell1">
-            놀아주세요~
-          </div>
-        </div>
-
-        <div class="cell">
-          물건뜯기
-          <div class="cell1">
-            매우짜증남..!
-          </div>
-        </div>
-    </div>
     </article>
-
 
 
     </div>

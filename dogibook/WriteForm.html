@@ -7,6 +7,7 @@
     <title>  D O G I B O O K </title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="dog.css?ver=3">
+    <script src="dogibook.js"></script>
 
 
 </head>
@@ -101,27 +102,42 @@
 <article> 
   <section>
 
-    <table id="WrtieForm">
+    <table id="WriteForm">
         <tr>
-          <td>
+          <th>
             ID
-          </td>
+          </th>
           <td>
-            <input type="text">
+            <input type="text" id="id">
           </td>
-          <td>
+          <th>
               PASSWORD
-            </td>
+            </th>
             <td>
-              <input type="password">
+              <input type="password" id="pass">
             </td>
         </tr>
         <tr>
-            <td>
+            <th>
               제목
-            </td>
+            </th>
             <td colspan="3">
-              <input type="text">
+              <input type="text" id="titleForm">
+            </td>
+          </tr>
+          <tr>
+            <th>
+              내용
+            </th>
+            <td colspan="3">
+              <input type="text"  id="content">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4">
+
+              <input type="button" value="확인" id="submitB"  onclick="location.href='commu.html'">
+
             </td>
           </tr>
     </table>
