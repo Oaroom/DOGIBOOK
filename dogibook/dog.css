@@ -879,7 +879,7 @@ position: relative;
 footer{
 
 width : 100%;
-height: 100px;
+height: 300px;
 color:white;
 background-color: #5BA9FF;
 margin-top: 50px;
@@ -1217,5 +1217,11 @@ width:100px;
   background-color: #5BA9FF;
   color:white;
 
+
+}
+
+#map{
+
+  width:800px;
 
 }
